@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Architectural Writing 1.0</title>
+    <meta property="og:title" content="Xue Xue｜Space × Literature｜Design and Composition of Architectural Writing 1.0" />
+    <meta
+      property="og:description"
+      content="第一屆【學學｜空間 × 文學｜建築寫作的設計與構築"
+    />
+    <meta
+      property="og:image"
+      content="../images/class_1.JPG"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -32,12 +41,11 @@
         <div class="offcanvas-header">
           <img
             style="width: 50px"
-            src="https://jimdo-storage.freetls.fastly.net/image/409768774/0d19d8f3-a964-4df4-84ac-8178d161c603.jpg?format=pjpg&amp;quality=80,90&amp;auto=webp&amp;disable=upscale&amp;width=443&amp;height=480&amp;trim=0,0,0,0 443w, https://jimdo-storage.freetls.fastly.net/image/409768774/0d19d8f3-a964-4df4-84ac-8178d161c603.jpg?format=pjpg&amp;quality=80,90&amp;auto=webp&amp;disable=upscale&amp;width=295&amp;height=320&amp;trim=0,0,0,0 295w, https://jimdo-storage.freetls.fastly.net/image/409768774/0d19d8f3-a964-4df4-84ac-8178d161c603.jpg?format=pjpg&amp;quality=80,90&amp;auto=webp&amp;disable=upscale&amp;width=148&amp;height=160&amp;trim=0,0,0,0 148w"
-            sizes="(min-width:1441px) 20vw,(min-width:1281px) 30vw,(min-width:801px) 50vw,(max-width:800px) 75vw,"
+            src="../images/avatar.jpg"
           />
-          <h5 class="offcanvas-title fw-bolder" id="offcanvasExampleLabel">
-            Chin-Wei Chang, Ph.D.
-          </h5>
+          <div class="offcanvas-title fw-bolder" id="offcanvasExampleLabel">
+            <a href="https://orcid.org/0000-0002-8519-7388" target="_blank" class="fs-5">Chin-Wei Chang, Ph.D.</a>
+          </div>
           <button
             type="button"
             class="btn-close text-reset"
@@ -63,13 +71,34 @@
                 >About</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
-                class="nav-link text-black"
-                href="../index.html#gallery"
-                onclick="closeOffcanvas('#gallery')"
-                >Gallery</a
+                class="nav-link dropdown-toggle text-black"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
+                Gallery
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../index.html#gallery"
+                    onclick="closeOffcanvas('#gallery')"
+                    >Gallery</a
+                  >
+                </li>
+                <hr />
+                <li><a class="dropdown-item" href="#">My Publication</a></li>
+                <li>
+                  <a class="dropdown-item" href="../course.html">My Course</a>
+                </li>
+                <li><a class="dropdown-item" href="#">My Lecture</a></li>
+                <li><a class="dropdown-item" href="#">My Research</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a
