@@ -12004,7 +12004,7 @@ img {
 }
 
 .home_bg {
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../images/banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
