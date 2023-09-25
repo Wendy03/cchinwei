@@ -16,16 +16,23 @@
     <link rel="stylesheet" href="css/all.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <button
-        class="btn text-black fs-4"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasExample"
-        aria-controls="offcanvasExample"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
+    <nav class="navbar p-2">
+      <div class="d-flex align-items-center">
+        <button
+          class="btn text-black fs-4"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div>
+          <a href="https://orcid.org/0000-0002-8519-7388"
+            ><img src="./images/logo.png" alt="logo" class="object-fit ms-4"
+          /></a>
+        </div>
+      </div>
       <div
         class="offcanvas offcanvas-start"
         tabindex="-1"
@@ -98,6 +105,9 @@
             eyes. --Marcel Proust
           </q>
           <div class="social_icons mt-5">
+            <a href="mailto:cchinwei@gmail.com"
+              ><i class="far fa-envelope"></i
+            ></a>
             <a href="https://www.facebook.com/iamdavid0205" target="_blank"
               ><i class="fab fa-facebook-f fs-4" aria-hidden="true"></i
             ></a>
@@ -262,6 +272,7 @@
                   name="entry.964813338"
                   id="message"
                   maxlength="500"
+                  rows="8"
                   class="form-control"
                   required=""
                 ></textarea>
@@ -272,7 +283,11 @@
         </div>
       </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
