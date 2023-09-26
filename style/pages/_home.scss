@@ -62,7 +62,8 @@
 .gallery_card {
   background-color: #817e7a;
   &:hover {
-    box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.5);
-    top: -7px;
+    box-shadow: 5px 5px 5px #333333;
+    -webkit-box-shadow: 5px 5px 5px #333333;
+    -moz-box-shadow: 5px 5px 5px #333333;
   }
 }
