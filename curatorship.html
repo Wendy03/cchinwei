@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Curatorship</title>
+    <meta property="og:title" content="My Curatorship" />
+    <meta
+      property="og:description"
+      content="It’s easy to do great work when you believe in what you do. That’s why we’re committed to helping more people like you, every day."
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/Wendy03/cchinwei/images/gallery_4.webp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/all.css" />
+  </head>
+  <body>
+    <nav class="navbar p-2">
+      <div class="d-flex align-items-center">
+        <button
+          class="btn text-black fs-4"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <img style="width: 50px" src="./images/avatar.webp" />
+          <div class="offcanvas-title fw-bolder" id="offcanvasExampleLabel">
+            <a
+              href="https://orcid.org/0000-0002-8519-7388"
+              target="_blank"
+              class="fs-5"
+              >Chin-Wei Chang, Ph.D.</a
+            >
+          </div>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a
+                class="nav-link text-black"
+                href="index.html#home"
+                onclick="closeOffcanvas('#home')"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-black"
+                href="index.html#about;"
+                onclick="closeOffcanvas('#about')"
+                >About</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-black"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gallery
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="index.html#gallery"
+                    onclick="closeOffcanvas('#gallery')"
+                    >Gallery</a
+                  >
+                </li>
+                <hr />
+                <li>
+                  <a class="dropdown-item" href="./research.html"
+                    >My Research</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./course.html">My Course</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./lecture.html">My Lecture</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./curatorship.html"
+                    >My Curatorship</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-black"
+                href="index.html#contact"
+                onclick="closeOffcanvas('#contact')"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-7">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h2 class="fw-bold">My Curatorship</h2>
+          <hr />
+          <div class="py-5">
+            <h3 class="mb-5">2021</h3>
+            <div>
+              <a href="./curatorship/liang.html">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="./images/curatorship/liang_1.webp"
+                        class="img-fluid rounded-start"
+                        alt="Liang Sicheng and Lin Huiyin"
+                        style="height: 300px; width: 100%"
+                      />
+                    </div>
+                    <div class="col-md-8 d-flex align-items-center">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">
+                          ‘Liang Sicheng and Lin Huiyin: the Life Story of My
+                          Father and Mother’: A Book Launch with Family Dialogue
+                          in Observance of Liang's 120th Anniversary
+                        </h5>
+                        <p class="card-text mt-3 d-md-block d-none">
+                          餘音繞梁<br />&emsp;
+                          ──梁思成誕辰120週年紀念暨《梁思成與林徽因：我的父親母親》新書對話
+                        </p>
+                        <p class="card-text mt-3 d-md-none">
+                          餘音繞梁──梁思成誕辰120週年紀念暨《梁思成與林徽因：我的父親母親》新書對話
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/nav.js"></script>
+  </body>
+</html>
