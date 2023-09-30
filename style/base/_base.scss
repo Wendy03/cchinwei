@@ -6,6 +6,14 @@ body {
 a {
   text-decoration: none;
   color: black;
+  &:hover {
+    background-image: linear-gradient(
+      0deg,
+      rgba(110, 107, 107, 0.457) 30%,
+      transparent 25.1%
+    );
+    background-position: left 0 bottom 40%;
+  }
 }
 
 img {
@@ -23,13 +31,4 @@ hr {
 
 p {
   word-break: break-word;
-}
-
-a:hover {
-  background-image: linear-gradient(
-    0deg,
-    rgba(110, 107, 107, 0.457) 30%,
-    transparent 25.1%
-  );
-  background-position: left 0 bottom 40%;
 }
